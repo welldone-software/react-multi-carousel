@@ -62,13 +62,14 @@ function getTransformForCenterMode(
   transformPlaceHolder?: number
 ) {
   const transform = transformPlaceHolder || state.transform;
+
   if (
     (!props.infinite && state.currentSlide === 0) ||
     notEnoughChildren(state)
   ) {
     return transform;
   } else {
-    return transform + state.itemWidth / 2;
+    return transform + state.itemWidth / 4;
   }
 }
 
