@@ -48,7 +48,7 @@ function getItemClientSideWidth(
   containerWidth: number
 ): number {
   return Math.round(
-    containerWidth / (slidesToShow + (props.centerMode ? 0.4 : 0))
+    containerWidth / (slidesToShow + (props.centerMode ? 0.2 : 0))
   );
 }
 
