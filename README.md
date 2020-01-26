@@ -4,4 +4,4 @@ This repository corresponds [original development](https://github.com/YIZHUANG/r
 
 # Differences
 
-1. Using `centerMode` now works as follows: prev/next cards fill 1/4 of main one.
+1. Using `centerMode` now works as follows: prev/next cards fill 1/5 of main one.
