@@ -69,7 +69,7 @@ function getTransformForCenterMode(
   ) {
     return transform;
   } else {
-    return transform + state.itemWidth / 4;
+    return transform + state.itemWidth / 5;
   }
 }
 
